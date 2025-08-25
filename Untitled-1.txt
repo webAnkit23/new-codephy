@@ -1,0 +1,14 @@
+
+amt = float(input("enter the amount to be paid"))
+dis = 0
+if amt < 1000 :
+    dis = 0
+elif amt >= 1000 and amt <= 2000 :
+    dis = 5
+elif amt > 2000 and amt <= 3500 :
+    dis = 10
+elif(amt > 3500 and amt <= 5000) :
+    dis = 20
+
+
+print(amt - amt * dis/100) 
